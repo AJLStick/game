@@ -1,7 +1,7 @@
 var sticks = 0;
 
-function stickClick(number){
-    sticks = sticks + number;
+function stickClick(1){
+    sticks = sticks + 1;
     document.getElementById("sticks").innerHTML = sticks;
 };
 
