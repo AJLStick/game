@@ -25,8 +25,6 @@ window.setInterval(function(){
 	
 }, 1000);
 
-};
-
 var chainsaws = 0;
 
 function buyChainsaw(){
