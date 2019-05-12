@@ -18,3 +18,9 @@ function buyaxe(){
     var nextCost = Math.floor(10 * Math.pow(1.1,axes));       //works out the cost of the next axe
     document.getElementById('axeCost').innerHTML = nextCost;  //updates the axe cost for the user
 };
+
+window.setInterval(function(){
+	
+	cookieClick(cursors);
+	
+}, 100);
