@@ -23,7 +23,7 @@ window.setInterval(function(){
 	
 	stickClick(axes);
 	
-}, 900);
+}, 500);
 
 
 var chainsaws = 0;
