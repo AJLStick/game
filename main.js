@@ -7,7 +7,7 @@ function stickClick(number){
 
 var axes = 0;
 
-function buyaxe(){
+function buyAxe(){
     var axeCost = Math.floor(10 * Math.pow(1.1,axes));     //works out the cost of this axe
     if(sticks >= axeCost){                                   //checks that the player can afford the axe
         axes = axes + 1;                                   //increases number of axes
@@ -21,6 +21,6 @@ function buyaxe(){
 
 window.setInterval(function(){
 	
-	cookieClick(cursors);
+	stickClick(axes);
 	
 }, 100);
