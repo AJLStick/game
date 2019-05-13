@@ -25,7 +25,6 @@ window.setInterval(function(){
 	
 }, 900);
 
-};
 
 var chainsaws = 0;
 
