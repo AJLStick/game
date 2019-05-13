@@ -45,4 +45,3 @@ window.setInterval(function(){
 	stickClick(10 * (chainsaws));
 	
 }, 500);
-
