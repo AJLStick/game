@@ -42,7 +42,7 @@ function buyChainsaw(){
 
 window.setInterval(function(){
 	
-	stickClick((chainsaws * 10));
+	stickClick(10 * (chainsaws));
 	
 }, 500);
 
