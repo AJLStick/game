@@ -17,7 +17,7 @@ function buyAxe(){
     }
     var nextCost = Math.floor(10 * Math.pow(1.1,axes));       //works out the cost of the next axe
     document.getElementById('axeCost').innerHTML = nextCost;  //updates the axe cost for the user
-}
+};
 
 window.setInterval(function(){
 	
@@ -38,7 +38,7 @@ function buyChainsaw(){
     }
     var nextCost = Math.floor(100 * Math.pow(1.1,chainsaws));       //works out the cost of the next axe
     document.getElementById('chainsawCost').innerHTML = nextCost;  //updates the axe cost for the user
-}
+};
 
 window.setInterval(function(){
 	
