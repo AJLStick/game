@@ -3,7 +3,7 @@ var sticks = 0;
 function stickClick(){
     sticks = sticks + 1;
     document.getElementById("sticks").innerHTML = sticks;
-}
+};
 
 var axes = 0;
 
