@@ -8,10 +8,10 @@ function stickClick(){
 var axes = 0;
 
 function buyAxe(){
-    var cursorCost = Math.floor(10 * Math.pow(1.1,axes));     //works out the cost of this cursor
+    var axeCost = Math.floor(10 * Math.pow(1.1,axes));     //works out the cost of this cursor
     if(sticks >= axeCost){                                   //checks that the player can afford the cursor
         axes = axes + 1;                                   //increases number of cursors
-    	sticks = sticks - cursorCost;                          //removes the cookies spent
+    	sticks = sticks - axeCost;                          //removes the cookies spent
         document.getElementById('axes').innerHTML = axes;  //updates the number of cursors for the user
         document.getElementById('sticks').innerHTML = sticks;  //updates the number of cookies for the user
     };
@@ -28,7 +28,7 @@ window.setInterval(function(){
 var chainsaws = 0;
 
 function buyChainsaw(){
-    var cursorCost = Math.floor(10 * Math.pow(1.1,chainsaws));     //works out the cost of this cursor
+    var chainsawCost = Math.floor(10 * Math.pow(1.1,chainsaws));     //works out the cost of this cursor
     if(sticks >= chainsawCost){                                   //checks that the player can afford the cursor
         chainsaws = chainsaws + 1;                                   //increases number of cursors
     	sticks = sticks - axeCost;                          //removes the cookies spent
