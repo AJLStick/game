@@ -35,7 +35,7 @@ function buyChainsaw(){
         document.getElementById('chainsaws').innerHTML = chainsaws;  //updates the number of cursors for the user
         document.getElementById('sticks').innerHTML = sticks;  //updates the number of cookies for the user
     };
-    var thirdCost = Math.floor(10 * Math.pow(1.1,chainsaws));       //works out the cost of the next cursor
+    var thirdCost = Math.floor(100 * Math.pow(1.1,chainsaws));       //works out the cost of the next cursor
     document.getElementById('chainsawCost').innerHTML = thirdCost;  //updates the cursor cost for the user
 };
 
