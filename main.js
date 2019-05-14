@@ -31,7 +31,7 @@ function buyChainsaw(){
     var chainsawCost = Math.floor(10 * Math.pow(1.1,chainsaws));     //works out the cost of this cursor
     if(sticks >= chainsawCost){                                   //checks that the player can afford the cursor
         chainsaws = chainsaws + 1;                                   //increases number of cursors
-    	sticks = sticks - axeCost;                          //removes the cookies spent
+    	sticks = sticks - chainsawCost;                          //removes the cookies spent
         document.getElementById('chainsaws').innerHTML = chainsaws;  //updates the number of cursors for the user
         document.getElementById('sticks').innerHTML = sticks;  //updates the number of cookies for the user
     };
